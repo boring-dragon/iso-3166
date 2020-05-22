@@ -1,0 +1,21 @@
+{
+    "name": "jinas/iso-3166",
+    "description": "Lookup information with ISO 3166-1 alpha-2, ISO 3166-1 alpha-3 and ISO 3166-1 numeric",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohamed Jinas",
+            "email": "j@live.mv"
+        }
+    ],
+    "require": {
+        "tightenco/collect": "^7.11"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jinas\\ISO\\" : "src/"
+        }
+    },
+    "require-dev": {
+    }
+}
