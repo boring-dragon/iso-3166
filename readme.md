@@ -1,4 +1,4 @@
-# iso-3166-
+# iso-3166
 > Lookup information with ISO 3166-1 alpha-2, ISO 3166-1 alpha-3 and ISO 3166-1 numeric
 
 
