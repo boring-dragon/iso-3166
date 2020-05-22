@@ -27,7 +27,7 @@ class ISO3166
      */
     public function whereAlpha2(string $alpha2) : array
     {
-        return $this->data->where('alpha2', strtoupper($alpha2))->toArray();
+        return $this->data->where('alpha2', strtoupper($alpha2))->values()->toArray()[0];
     }
     
     /**
@@ -40,7 +40,7 @@ class ISO3166
      */
     public function whereAlpha3(string $alpha3) : array
     {
-        return $this->data->where('alpha3', strtoupper($alpha3))->toArray();
+        return $this->data->where('alpha3', strtoupper($alpha3))->values()->toArray()[0];
     }
 
     
@@ -54,7 +54,7 @@ class ISO3166
      */
     public function whereNumeric(int $numeric) : array
     {
-        return $this->data->where('numeric', $numeric)->toArray();
+        return $this->data->where('numeric', $numeric)->values()->toArray()[0];
 
     }
     
@@ -68,6 +68,6 @@ class ISO3166
      */
     public function whereCountry(string $country) : array
     {
-        return $this->data->where('country', ucfirst(strtolower($country)))->toArray();
+        return $this->data->where('country', ucfirst(strtolower($country)))->values()->toArray()[0];
     }
 }
