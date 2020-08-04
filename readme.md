@@ -1,5 +1,6 @@
 # iso-3166
 [![Build Status](https://travis-ci.org/jinas123/iso-3166.svg?branch=master)](https://travis-ci.org/jinas123/iso-3166)
+[![StyleCI](https://github.styleci.io/repos/266107255/shield?branch=master)](https://github.styleci.io/repos/266107255?branch=master)
 
 > Library to lookup information with ISO 3166-1 alpha-2, ISO 3166-1 alpha-3 and ISO 3166-1 numeric
 
